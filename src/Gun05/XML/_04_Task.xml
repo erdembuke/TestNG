@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <test name="DataProvideTestEdge">
+        <parameter name="browser" value="chrome"> </parameter>
+        <classes>
+            <class name="Gun05._04_Task"> </class>
+        </classes>
+
+    </test>
+
+</suite>

@@ -1,0 +1,98 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <test name="Test1">
+        <parameter name="browser" value="chrome"> </parameter>
+
+        <classes>
+            <class name="TestNG_Projects.Project1.TestClass1">
+                <methods>
+                    <include name="Test1"> </include>
+                </methods>
+            </class>
+        </classes>
+
+    </test>
+
+    <test name="Test2">
+        <parameter name="browser" value="chrome"> </parameter>
+
+        <classes>
+            <class name="TestNG_Projects.Project1.TestClass1">
+                <methods>
+                    <include name="Test2"> </include>
+                </methods>
+            </class>
+        </classes>
+
+    </test>
+
+    <test name="Test3">
+        <parameter name="browser" value="chrome"> </parameter>
+
+        <classes>
+            <class name="TestNG_Projects.Project1.TestClass1">
+                <methods>
+                    <include name="Test3"> </include>
+                </methods>
+            </class>
+        </classes>
+
+    </test>
+
+    <test name="Test4">
+        <parameter name="browser" value="chrome"> </parameter>
+
+        <classes>
+            <class name="TestNG_Projects.Project1.TestClass1">
+                <methods>
+                    <include name="Test4"> </include>
+                </methods>
+            </class>
+        </classes>
+
+    </test>
+
+    <test name="Test5">
+        <parameter name="browser" value="chrome"> </parameter>
+
+        <classes>
+            <class name="TestNG_Projects.Project1.TestClass1">
+                <methods>
+                    <include name="Test5"> </include>
+                </methods>
+            </class>
+        </classes>
+
+    </test>
+
+    <test name="Test6">
+        <parameter name="browser" value="chrome"> </parameter>
+
+        <classes>
+            <class name="TestNG_Projects.Project1.TestClass1">
+                <methods>
+                    <include name="Test6"> </include>
+                </methods>
+            </class>
+        </classes>
+
+    </test>
+
+    <test name="Test7">
+        <parameter name="browser" value="chrome"> </parameter>
+        <parameter name="search" value="Adobe Photoshop CS4"> </parameter>
+
+        <classes>
+            <class name="TestNG_Projects.Project1.TestClass1">
+                <methods>
+                    <include name="Test7"> </include>
+                </methods>
+            </class>
+        </classes>
+
+    </test>
+
+
+
+</suite>

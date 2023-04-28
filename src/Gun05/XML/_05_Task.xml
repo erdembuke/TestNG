@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel Test Suite" parallel="tests" thread-count="2">
+
+    <test name="DataProvideTestEdge">
+        <parameter name="browser" value="edge"> </parameter>
+        <classes>
+            <class name="Gun05._05_Task_CrossBrowser_Parallel"> </class>
+        </classes>
+
+    </test>
+
+    <test name="DataProvideTestChrome">
+        <parameter name="browser" value="chrome"> </parameter>
+        <classes>
+            <class name="Gun05._05_Task_CrossBrowser_Parallel"> </class>
+        </classes>
+
+    </test>
+</suite>

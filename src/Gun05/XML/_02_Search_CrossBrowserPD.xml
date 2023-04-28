@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suit">
+
+    <test name="chromeTest">
+        <parameter name="aranacakKelime" value="mac"> </parameter>
+        <parameter name="browser" value="chrome"> </parameter>
+
+        <classes>
+            <class name="Gun05._01_SearchFunctionalityParameter"> </class>
+        </classes>
+    </test>
+
+    <test name="edgeTest">
+        <parameter name="aranacakKelime" value="mac"> </parameter>
+        <parameter name="browser" value="edge"> </parameter>
+
+        <classes>
+            <class name="Gun05._01_SearchFunctionalityParameter"> </class>
+        </classes>
+    </test>
+
+</suite>
